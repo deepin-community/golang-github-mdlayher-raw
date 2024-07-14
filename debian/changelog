@@ -1,5 +1,41 @@
-template-repository (1.0-1) unstable; urgency=medium
+golang-github-mdlayher-raw (0.1.0-2) unstable; urgency=medium
 
-  * Initial release
+  * Team upload
+  * Refactor debian/watch now that upstream uses tags
+  * Bump Standards-Version to 4.6.2 (no changes)
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Daniel Swarbrick <dswarbrick@debian.org>  Fri, 16 Jun 2023 11:05:32 +0000
+
+golang-github-mdlayher-raw (0.1.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Daniel Swarbrick ]
+  * New upstream release
+  * Update long description with notice of upstream project deprecation
+  * d/control: replace dh-golang with dh-sequence-golang
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Repository-Browse.
+  * Update standards version to 4.6.1, no changes needed.
+  * Add Multi-Arch: foreign
+
+ -- Daniel Swarbrick <dswarbrick@debian.org>  Fri, 16 Dec 2022 22:14:40 +0000
+
+golang-github-mdlayher-raw (0.0~git20191009.50f2db8-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Database, Bug-Submit.
+
+  [ Martina Ferrari ]
+  * Bump dh-compat to 13.
+  * Set upstream metadata fields: Repository.
+  * Sourceful re-upload to unblock migration.
+
+ -- Martina Ferrari <tina@debian.org>  Mon, 07 Dec 2020 18:23:54 +0000
+
+golang-github-mdlayher-raw (0.0~git20191009.50f2db8-1) unstable; urgency=medium
+
+  * Initial release. Closes: #960797
+
+ -- Martina Ferrari <tina@debian.org>  Sat, 16 May 2020 18:44:55 +0000
